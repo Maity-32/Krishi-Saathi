@@ -131,3 +131,15 @@ Actionable Advisory
 Ensessment
     ↓
 Actionable Advisory
+
+### Example
+
+Low soil nitrogen
+
+Visible leaf yellowing
+
+↓
+
+Possible nutrient stress
+
+The system does not claim that RGB images alone directly measure nutrient concentration. Visual symptoms are correlated with measured NPK, pH and EC values before generating an advisory.
