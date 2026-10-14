@@ -1,37 +1,3 @@
-                 ┌─────────────────────┐
-                 │     SENSOR NODE     │
-                 │       ESP32         │
-                 │                     │
-                 │ NPK • pH • EC       │
-                 │ Moisture • Temp     │
-                 │ Rain • Water Level  │
-                 └──────────┬──────────┘
-                            │
-                         ESP-NOW
-                            │
-                            ▼
-┌────────────────────────────────────────────────┐
-│                 MAIN GATEWAY                   │
-│                    ESP32                       │
-│                                                │
-│ Sensor Fusion • Risk Analysis • Advisory      │
-│ Irrigation Decision • Local Display            │
-└───────────────────────┬────────────────────────┘
-                        ▲
-                        │
-                     ESP-NOW
-                        │
-                        │
-              ┌─────────┴─────────┐
-              │   VISION NODE     │
-              │    ESP32-S3       │
-              │                   │
-              │ OV3660 Camera     │
-              │ INT8 MobileNetV2  │
-              │ Visual Analysis   │
-              └───────────────────┘
-
-
 ## 🛠️ Hardware
 
 ### Sensor Node
