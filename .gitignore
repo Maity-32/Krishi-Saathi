@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+venv/
+env/
+.venv/
+qat_env/
+krishi_env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Arduino build artifacts
+build/
+build-*/
+*.elf
+*.map
+
+# Editor settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+secrets.h
+arduino_secrets.h
+
+# Temporary files
+*.tmp
+*.temp
+
+# Raw datasets
+datasets/raw/
+PlantVillage/
+tomato_dataset/
+
+# Training checkpoints and logs
+checkpoint/
+logs/
